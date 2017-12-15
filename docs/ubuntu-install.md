@@ -63,9 +63,10 @@ https://www.jetbrains.com/webstorm/download/
 - font in WS terminal console: Settings > Editor > Color Scheme > Console Font
 - -> install plugin: Markdown Navigator
 
-### Install roboto font
-`sudo apt-get install fonts-roboto`
+### Install roboto and firacode fonts
+`sudo apt install fonts-roboto`
 - -> set 'Overeride default fonts by' roboto <12>
+`sudo apt install fonts-firacode`
 
 ### Install nvm
 https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04
