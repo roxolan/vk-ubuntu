@@ -18,12 +18,14 @@ add NOPASSWD:ALL to %sudo
 http://ubuntuhandbook.org/index.php/2014/04/change-hostname-ubuntu1404/
 
 
-### install Emacs
+### install Emacs->Spacemacs
 `$ sudo apt update`
 
 `$ sudo apt upgrade`
 
 `$ sudo apt install emacs`
+
+`$ git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d`
 
 ### Install Docker
 https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#install-docker-ce
