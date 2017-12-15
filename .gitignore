@@ -16,11 +16,15 @@
 .node-gyp/
 .npm/
 .nvm/
+.oh-my-zsh/
 .pki/
 .profile
 .python_history
 .ssh/
 .sudo_as_admin_successful
+.zcompdump*
+.zsh-update
+.zsh_history
 
 code/
 core

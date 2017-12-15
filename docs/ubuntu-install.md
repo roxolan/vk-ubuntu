@@ -54,9 +54,9 @@ https://askubuntu.com/questions/510056/how-to-install-google-chrome
 
 `$ echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list`
 
-`$ sudo apt-get update`
+`$ sudo apt update`
 
-`$ sudo apt-get install google-chrome-stable`
+`$ sudo apt install google-chrome-stable`
 
 ### Install WebStorm
 https://www.jetbrains.com/webstorm/download/
@@ -71,7 +71,7 @@ https://www.jetbrains.com/webstorm/download/
 ### Install nvm
 https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04
 
-`$ sudo apt-get install build-essential libssl-dev`
+`$ sudo apt install build-essential libssl-dev`
 
 `$ curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh -o install_nvm.sh`
 
@@ -82,3 +82,16 @@ https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubunt
 `$ nvm install 7.1.0`
 
 `$ nvm alias default 7.1.0`
+
+### Install zsh & oh-my-zsh
+`$ sudo apt install zsh`
+
+`$ zsh --version`
+
+`$ echo $SHELL`
+
+`$ chsh -s $(which zsh) vk`
+
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+
+
