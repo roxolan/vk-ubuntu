@@ -62,6 +62,14 @@ https://askubuntu.com/questions/510056/how-to-install-google-chrome
 https://www.jetbrains.com/webstorm/download/
 - font in WS terminal console: Settings > Editor > Color Scheme > Console Font
 - -> install plugin: Markdown Navigator
+#### Increase inotify watchers limit
+https://confluence.jetbrains.com/display/IDEADEV/Inotify+Watches+Limit
+For file update watcher to work properly, add to to either /etc/sysctl.conf file
+or a new *.conf file (e.g. idea.conf) under /etc/sysctl.d/ directory:
+```
+fs.inotify.max_user_watches = 524288
+```
+then apply the changes by running `sudo sysctl -p --system` and restart WebStorm.
 
 ### Install roboto and firacode fonts
 `sudo apt install fonts-roboto`
